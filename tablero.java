@@ -1,5 +1,5 @@
 
-public class tablerin {
+public class tablero {
 	private int[][] tablero;				
 	private static int N=3;					
 	private static int K=12;						
@@ -8,8 +8,8 @@ public class tablerin {
 	private int[] acuC;				
 	private boolean[] usados;			
 
-	//CONSTRUCTOR
-	public tablerin () {
+	
+	public tablero () {
 		tablero = new int[N][N];
 		this.acuF = new int[N];
 		this.acuC = new int[N];
