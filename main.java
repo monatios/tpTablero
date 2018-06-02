@@ -1,7 +1,7 @@
 
-public class mainT {
+public class main {
 	public static void main(String[] args){
-		tablerin m= new tablerin();
+		Tablero m= new tablerin();
 		m.solucionar();
 	}
 
